@@ -149,21 +149,20 @@ text-align: center;
 #remote{
     color:#D40072 ;
 }
-#rd{
-    display: block;
-    justify-content: center;
-}
-.down{
-    padding-left: 3rem;
-    max-width: 100%;
-    display: block;
-    justify-content: center;
-}
-.down p{
-    margin-bottom: 1rem;
-    font-size: 20px;
+.rd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 3rem;
 }
+.down{
+    font-size: 20px;
+    line-height: 153%;
+    letter-spacing: 0.005em;
+    color: #3B4451;
+
+}
+
 #rd img{
 width: 40%;
 justify-self: center;
@@ -296,4 +295,7 @@ color: #212353;
     align-items: center;
     color: #3B4451;
   }    
-    
+  .expectations{
+    color: #3B4451;
+
+  }
